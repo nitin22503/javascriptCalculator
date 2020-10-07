@@ -1,0 +1,93 @@
+button:focus{outline: none;}
+        body{
+            background-color: #fbfaac;
+        }
+        .container{
+            width: 300px;
+            height: 20px;
+            border-width: 5px;
+            border-style: none;
+            display: flex;
+            justify-content: center;
+            
+        }
+        .container1{
+            position: absolute;
+            top: 25%;
+            left: 35%;
+        }
+        .container2{
+            position: absolute;
+            top: 40%;
+            left: 35%;
+        }
+        .container3{
+            position: absolute;
+            top: 53%;
+            left: 35%;
+        }
+        .container4{
+            position: absolute;
+            top: 66%;
+            left: 35%;
+        }
+        .container5{
+            position: absolute;
+            top: 79%;
+            left: 35%;
+        }
+        #calc{
+            position: absolute;
+            left: 30%;
+            top: 3%;
+            font-size: 40px;
+            color: #34a853;
+
+        }
+        #inputField{
+            width: 250px;
+            height: 75px;
+            
+            padding-top: 5px;
+            font-size: 25px;
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 20px;
+            border-color:#663399 ; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow-x: auto;
+        }
+        #clear{
+            float: right;
+            width: 50px;
+            height: 75px;
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 80px;
+            text-align: center;   
+            border-color:rebeccapurple ;
+              
+        }
+        .number{
+            float: left;
+            width: 75px;
+            height: 75px;
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 50%;
+            text-align: center;
+            border-color:rebeccapurple ; 
+            border-top: none;
+            font-size: 20px; 
+            background: transparent;
+            padding: 2px;
+        }
+        #plus{
+            background-color: #2d47af;
+        }
+        .number:hover{
+            background-color: #b649b6;
+            font-size: 40px;
+        }
